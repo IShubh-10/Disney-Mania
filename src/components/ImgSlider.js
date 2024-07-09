@@ -16,51 +16,51 @@ const ImgSlider = (props) => {
     <Carousel {...settings}>
        <Wrap>
         <a>
-          <img src="/images/disney-logo.jpg" style={{height:"329px"}} alt="" />
+          <img src="/images/disney-intro-play.gif" style={{height:"329px"}} alt="" />
         </a>
       </Wrap>
 
       <Wrap>
         <a>
-          <img src="/images/inside-out.webp" style={{height:"329px"}} alt="" />
+          <img src="/images/disney-play.gif" style={{height:"329px"}} alt="" />
         </a>
       </Wrap>
 
       <Wrap>
         <a>
-          <img src="/images/elemental.jpeg" style={{height:"329px"}} alt="" />
+          <img src="/images/up-play.gif" style={{height:"329px"}} alt="" />
         </a>
       </Wrap>
 
       <Wrap>
         <a>
-          <img src="/images/Luca.jpg" style={{height:"329px"}} alt="" />
+          <img src="/images/tangled.gif" style={{height:"329px"}} alt="" />
         </a>
       </Wrap>
 
       <Wrap>
         <a>
-          <img src="/images/marvels.jpg" style={{height:"329px"}} alt="" />
-        </a>
-      </Wrap>
-
-      {/* <Wrap>
-        <a>
-          <img src="/images/slider-scale.jpg" alt="" />
+          <img src="/images/luca-play.gif" style={{height:"329px"}} alt="" />
         </a>
       </Wrap>
 
       <Wrap>
         <a>
-          <img src="/images/slider-badag.jpg" alt="" />
+          <img src="/images/pixar-gif.gif" style={{height:"329px"}} alt="" />
         </a>
       </Wrap>
 
       <Wrap>
         <a>
-          <img src="/images/slider-scales.jpg" alt="" />
+          <img src="/images/Yiba.gif" style={{height:"329px"}} alt="" />
         </a>
-      </Wrap> */}
+      </Wrap>
+
+      <Wrap>
+        <a>
+          <img src="/images/pixar-play.gif" style={{height:"329px"}} alt="" />
+        </a>
+      </Wrap>
     </Carousel>
   );
 };
@@ -127,6 +127,12 @@ const Wrap = styled.div`
       padding: 0;
       border: 4px solid rgba(249, 249, 249, 0.8);
       transition-duration: 300ms;
+    }
+
+    @media (max-width: 768px) {
+      img {
+        height: 180px !important;
+      }
     }
   }
 `;
