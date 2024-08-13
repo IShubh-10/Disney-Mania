@@ -84,7 +84,7 @@ const Header = () => {
             </Link>
             <Link >
               <img src="/images/search-icon.svg" alt="SEARCH" />
-              <span>SEARCH</span>
+              <span style={{color: "#9e9e9e"}}>SEARCH</span>
             </Link>
             <Link to="/watchlist">
               <img src="/images/watchlist-icon.svg" alt="WATCHLIST" />
@@ -92,7 +92,7 @@ const Header = () => {
             </Link>
             <Link>
               <img src="/images/original-icon.svg" alt="ORIGINALS" />
-              <span>ORIGINALS</span>
+              <span style={{color: "#9e9e9e"}}>ORIGINALS</span>
             </Link>
             <Link to="/movies">
               <img src="/images/movie-icon.svg" alt="MOVIES" />
@@ -100,7 +100,7 @@ const Header = () => {
             </Link>
             <Link>
               <img src="/images/series-icon.svg" alt="SERIES" />
-              <span>SERIES</span>
+              <span style={{color: "#9e9e9e"}}>SERIES</span>
             </Link>
           </NavMenu>
           <SignOut>
